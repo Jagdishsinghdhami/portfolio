@@ -1,5 +1,6 @@
 import {
   Gamepad2,
+  ShoppingBag,
   Headphones,
   Image,
   LucideIcon,
@@ -373,7 +374,7 @@ export const otherCards: ISectionCardData[] = [
     id: 1,
     title: 'ET Pwla 2023',
     src: '/tech/others/etpwla.png',
-    exp: '1 day ago',
+    exp: '1 year ago',
     snippetCount: 1128,
     progress: 90,
     href:'https://economictimes.indiatimes.com/spotlight/etpwla2023',
@@ -382,7 +383,7 @@ export const otherCards: ISectionCardData[] = [
     id: 2,
     title: 'ET Antler 2023',
     src: '/tech/others/antler.png',
-    exp: '1 day ago',
+    exp: '1 year ago',
     snippetCount: 1128,
     progress: 70,
     href:'https://economictimes.indiatimes.com/spotlight/et_antler_next100.cms',
@@ -391,7 +392,7 @@ export const otherCards: ISectionCardData[] = [
     id: 3,
     title: 'Crypto currency',
     src: '/tech/others/crypto.png',
-    exp: '1 day ago',
+    exp: '1 year ago',
     snippetCount: 1128,
     progress: 70,
     href:'https://economictimes.indiatimes.com/spotlight/cryptocurrency_crypto_academy/105209720.cms'
@@ -400,7 +401,7 @@ export const otherCards: ISectionCardData[] = [
     id: 4,
     title: 'ET Circle 2023',
     src: '/tech/others/etcircle.png',
-    exp: '1 day ago',
+    exp: '1 year ago',
     snippetCount: 1128,
     progress: 70,
     href:'https://economictimes.indiatimes.com/spotlight/et_circle.cms'

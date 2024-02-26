@@ -1,6 +1,8 @@
 import Cover from "@/components/Cover";
 import ProjectCardSection from "@/components/sections/ProjectCardSection";
 import Image from "next/image";
+import MoreProjects from "@/components/sections/MoreProjects";
+import CardSection from "@/components/sections/CardSection";
 import {
   backendCard,
   databaseCard,
@@ -17,8 +19,11 @@ export default function Home() {
     <>
       <Cover />
       <div className="flex flex-col gap-10 lg:px-10">
-        {/* <ProjectCardSection title="Projects" data={projectCard} /> */}
         <ProjectCardSection title="Projects" data={projectCard} />
+        <MoreProjects title="More projects" data={moreProjects} />
+
+        <CardSection title="Times Internet Projects : " data={web3Cards} />
+        <CardSection title="Others Projects :" data={otherCards} />
       </div>
     </>
   );
