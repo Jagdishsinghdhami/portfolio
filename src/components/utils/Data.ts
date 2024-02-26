@@ -48,7 +48,7 @@ export const projectCard: IProjectSectionCardData[] = [
     title: 'Portfolio',
     techStack: 'React, Typescript, TailwindCss,React Hook Form',
     imageUrl: 'portfolio.png',
-    href: 'https://github.com/Jagdishsinghdhami/portfolio',
+    href: 'https://portfolio-three-brown-84.vercel.app/',
   },
   // {
   //   id: 3,
@@ -112,13 +112,13 @@ export const moreProjects = [
     href: 'https://github.com/Jagdishsinghdhami/react_course',
   },
 
-  // {
-  //   id: 4,
-  //   title: 'Snake Game',
-  //   techStack: 'Next.js 13, Tailwind CSS, Typescript',
-  //   icon: 'game',
-  //   href: 'https://snake-nwaliaez.vercel.app/',
-  // },
+  {
+    id: 4,
+    title: 'portfolio',
+    techStack: 'Next.js 13, Tailwind CSS, Typescript',
+    icon: 'game',
+    href: 'https://github.com/Jagdishsinghdhami/portfolio',
+  },
 ];
 
 export const frontendCard: ISectionCardData[] = [

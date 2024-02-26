@@ -7,9 +7,9 @@ interface ProfileNameProps {}
 
 const ProfileName: FC<ProfileNameProps> = ({}) => {
   return (
-    <div className="text-3xl flex flex-col font-bold text-highlight">
+    <div className="text-3xl flex flex-col font-bold text-highlight md:text-start text-center">
       Jagdish Singh Dhami
-      <div className="text-sm font-thin flex justify-between items-center">
+      <div className="text-sm font-thin flex md:justify-between items-center justify-center">
         <div className="m-2">
           <Button variant="primary" sizes={"iconOnly"}>
             <Mail />
@@ -21,7 +21,7 @@ const ProfileName: FC<ProfileNameProps> = ({}) => {
         </div>
         <div className="m-2">
           <Button variant="primary" sizes={"iconOnly"}>
-            <Phone /> <a href="tel:+919057417283">+91 9057417283</a>
+            <Phone /> <a href="tel:+91905****83">+91 9057****83</a>
           </Button>
         </div>
 

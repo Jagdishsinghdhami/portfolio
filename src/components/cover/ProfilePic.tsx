@@ -5,7 +5,7 @@ interface ProfilePicProps {}
 
 const ProfilePic: FC<ProfilePicProps> = ({}) => {
   return (
-    <div className="">
+    <div className="flex justify-center">
       <Image
         alt="Jagdish Dhami"
         src="/images/portfolio.jpg"

@@ -15,6 +15,7 @@ import {
   Ticket,
   Video,
   X,
+  Twitter,
   Youtube,
 } from "lucide-react";
 import List from "../ui/List";
@@ -42,19 +43,12 @@ const Menu: FC<MenuProps> = ({}) => {
       <List link="/" effect="slideUp">
         <Code /> Snippets
       </List>
-      <List link="https://www.instagram.com/jazz_dhamii/" effect="slideUp">
+      <List link="/" effect="slideUp">
         <Video /> Videos
       </List>
 
       {/* List 2 */}
       <div className="mt-5">Socials</div>
-      <List
-        target="_blank"
-        link="https://www.instagram.com/jazz_dhamii/"
-        effect="slideUp"
-      >
-        <Instagram color="#b5179e" /> Instagram
-      </List>
       <List
         target="_blank"
         link="https://github.com/Jagdishsinghdhami"
@@ -64,25 +58,33 @@ const Menu: FC<MenuProps> = ({}) => {
       </List>
       <List
         target="_blank"
-        link="https://www.youtube.com/channel/UCJKMy1aPIh-weKSfnn1Vn8w"
-        effect="slideUp"
-      >
-        <Youtube color="#e63946" /> Youtube
-      </List>
-      <List
-        target="_blank"
-        link="https://stackoverflow.com/users/23228123/jagdish-singh-dhami"
-        effect="slideUp"
-      >
-        <Layers color="#f77f00" /> Stack overflow
-      </List>
-      <List
-        target="_blank"
         link="https://www.linkedin.com/in/jagdishsinghdhami/"
         effect="slideUp"
       >
         <Linkedin color="#0277b5" /> Linkedin
       </List>
+      <List
+        target="_blank"
+        link="https://www.instagram.com/jazz_dhamii/"
+        effect="slideUp"
+      >
+        <Instagram color="#b5179e" /> Instagram
+      </List>
+
+      <List
+        target="_blank"
+        link="https://twitter.com/Jazz_dhamii"
+        effect="slideUp"
+      >
+        <Twitter color="#e63946" /> Twitter
+      </List>
+      {/* <List
+        target="_blank"
+        link="https://stackoverflow.com/users/23228123/jagdish-singh-dhami"
+        effect="slideUp"
+      >
+        <Layers color="#f77f00" /> Stack overflow
+      </List> */}
 
       {/* List 3 */}
       {/* <div className="mt-5">Projects</div>
